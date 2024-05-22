@@ -1,0 +1,82 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.top-container,
+.bottom-container {
+  flex: 15%;
+  background-color: #7f6cb0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-container {
+  flex: 70%;
+  display: flex;
+}
+
+.left-center {
+  flex: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-center {
+  flex: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20px;
+}
+
+.logo-image {
+  width: 90%;
+  max-height: 40%;
+  margin-bottom: 0;
+}
+
+.button-container {
+  border: 2px solid #e0aaff; /* Color de resalte 1 */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2% 5%;
+  width: 50%;
+  margin-top: -50%;
+}
+
+.btn {
+  margin: 5px;
+  padding: 2% 5%;
+  font-size: 1.6vw;
+  border: none;
+  color: #e0aaff;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  background-color: #e0aaff;
+  color: white;
+}
+
+.image-container {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.rounded-image {
+  border-radius: 10px;
+  border: 2px solid #e0aaff;
+  max-width: 100%;
+  height: auto;
+}
